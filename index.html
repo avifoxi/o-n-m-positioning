@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Responsive Layout Example</title>
+
+	<link rel="stylesheet" href="./responsive-layout-example.css">
+	<script src="./jquery.js"></script>
+</head>
+<body class="container">
+
+	<div id="header" class="fixed-block">
+		I am a header. Hello!
+	</div>
+
+	<div class="responsive row">
+
+		<div class="col">
+			<ol>
+				<li>I am an ordered list item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+				<li>I am the next item.</li>
+			</ol>
+		</div>
+
+		<div class="rounded-corners col">
+			I have 5px rounded corners
+		</div>
+
+		<div class="col text-parent">
+			<p class="center-text">
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+			</p>
+		</div>
+		
+		<div class="col image-fill">
+			<img src="http://lorempixel.com/700/700/" alt="">
+		</div>
+		
+	</div>
+
+	<div id="footer" class="fixed-block">
+		I am a footer. Hello!
+	</div>
+	<script src="./sizing.js"></script>
+
+<!-- < script type="text/javascript" src="./liz.js"></script> -->
+</body>
+</html>
