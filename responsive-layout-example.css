@@ -4,14 +4,16 @@
 	@owebboy
 */
 
-.container {
+html, body {
   width: 100%;
   margin: auto;
   position: relative;
+  height: 100%;
 }
 .responsive {
   max-width: 100%;
-  margin-top: 55px;
+  margin-top: 90px;
+  height: 80%;
 }
 
 .col {  
@@ -82,13 +84,15 @@ li {
 
 .text-parent {
 	background-color: yellow;
-
+	height: 100%;
+	position: relative;
 }
 
 .center-text {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 100%;	
+	position: absolute;
 }
 
 .image-fill img {
