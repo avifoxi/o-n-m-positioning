@@ -5,11 +5,15 @@
 	<title>CSS Responsive Layout Example</title>
 
 	<link rel="stylesheet" href="./responsive-layout-example.css">
+	<script src="./jquery.js"></script>
 </head>
 <body class="container">
 
 	<div id="header" class="fixed-block">
 		I am a header. Hello!
+	</div>
+
+	<div id="spacer">	
 	</div>
 
 	<div class="container responsive row">
@@ -33,13 +37,15 @@
 			I have 5px rounded corners
 		</div>
 
-		<div class="col center-text">
-			My text is centered horizontally and vertically.
-			My text is centered horizontally and vertically.
-			My text is centered horizontally and vertically.
-			My text is centered horizontally and vertically.
-			My text is centered horizontally and vertically.
-			My text is centered horizontally and vertically.
+		<div class="col text-parent">
+			<p class="center-text">
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+				My text is centered horizontally and vertically.
+			</p>
 		</div>
 		
 		<div class="col image-fill">
@@ -51,5 +57,6 @@
 	<div id="footer" class="fixed-block">
 		I am a footer. Hello!
 	</div>
+	<script src="./sizing.js"></script>
 </body>
 </html>
